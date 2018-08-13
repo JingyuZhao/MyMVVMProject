@@ -16,6 +16,7 @@
 		F32E7CA5212181C800529C2B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E7CA4212181C800529C2B /* BaseViewController.m */; };
 		F32E7CAE2121853C00529C2B /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E7CAD2121853C00529C2B /* BaseTabBarController.m */; };
 		F32E7CB12121854A00529C2B /* BaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E7CB02121854A00529C2B /* BaseTabBar.m */; };
+		F32E7CB4212189BE00529C2B /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E7CB3212189BE00529C2B /* IndexViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +33,14 @@
 		F32E7C9421217D6400529C2B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F32E7CA3212181C800529C2B /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		F32E7CA4212181C800529C2B /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		F32E7CA6212181F600529C2B /* ThridRegisterInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ThridRegisterInfo.h; path = MyMVVMProject/Base/BaseViewController/ThridRegisterInfo.h; sourceTree = SOURCE_ROOT; };
 		F32E7CA72121822100529C2B /* myMvvmPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myMvvmPch.pch; sourceTree = "<group>"; };
 		F32E7CAC2121853C00529C2B /* BaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
 		F32E7CAD2121853C00529C2B /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
 		F32E7CAF2121854A00529C2B /* BaseTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBar.h; sourceTree = "<group>"; };
 		F32E7CB02121854A00529C2B /* BaseTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBar.m; sourceTree = "<group>"; };
+		F32E7CB2212189BE00529C2B /* IndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		F32E7CB3212189BE00529C2B /* IndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		F3DBE39521218B1200062BCE /* ThridRegisterInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThridRegisterInfo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,21 +110,13 @@
 		F32E7C9221217D6400529C2B /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				F32E7C962121818700529C2B /* Defines */,
+				F3DBE39421218AF700062BCE /* Defines */,
 				F32E7C972121818700529C2B /* Rescoures */,
 				F32E7C9321217D6400529C2B /* AppDelegate.h */,
 				F32E7C9421217D6400529C2B /* AppDelegate.m */,
 				F32E7CA72121822100529C2B /* myMvvmPch.pch */,
 			);
 			path = Others;
-			sourceTree = "<group>";
-		};
-		F32E7C962121818700529C2B /* Defines */ = {
-			isa = PBXGroup;
-			children = (
-				F32E7CA6212181F600529C2B /* ThridRegisterInfo.h */,
-			);
-			path = Defines;
 			sourceTree = "<group>";
 		};
 		F32E7C972121818700529C2B /* Rescoures */ = {
@@ -183,6 +178,8 @@
 		F32E7CA92121841000529C2B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F32E7CB2212189BE00529C2B /* IndexViewController.h */,
+				F32E7CB3212189BE00529C2B /* IndexViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -203,6 +200,14 @@
 				F32E7CB02121854A00529C2B /* BaseTabBar.m */,
 			);
 			path = BaseTabBar;
+			sourceTree = "<group>";
+		};
+		F3DBE39421218AF700062BCE /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				F3DBE39521218B1200062BCE /* ThridRegisterInfo.h */,
+			);
+			path = Defines;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +307,7 @@
 				F32E7CB12121854A00529C2B /* BaseTabBar.m in Sources */,
 				F32E7CA5212181C800529C2B /* BaseViewController.m in Sources */,
 				F32E7C8C21217D2300529C2B /* main.m in Sources */,
+				F32E7CB4212189BE00529C2B /* IndexViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
