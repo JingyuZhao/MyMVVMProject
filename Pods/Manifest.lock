@@ -1,0 +1,28 @@
+PODS:
+  - JLRoutes (2.1)
+  - MGJRouter (0.10.0)
+  - ReactiveObjC (3.1.0)
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - JLRoutes (~> 2.1)
+  - MGJRouter (~> 0.10.0)
+  - ReactiveObjC (~> 3.1.0)
+  - WebViewJavascriptBridge (~> 6.0.3)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JLRoutes
+    - MGJRouter
+    - ReactiveObjC
+    - WebViewJavascriptBridge
+
+SPEC CHECKSUMS:
+  JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
+  MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: 9e55e2b2521bc850dfba01d7956a380cc47f8ce1
+
+COCOAPODS: 1.5.3

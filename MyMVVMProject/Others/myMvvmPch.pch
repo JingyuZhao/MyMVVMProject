@@ -1,0 +1,16 @@
+//
+//  myMvvmPch.pch
+//  MyMVVMProject
+//
+//  Created by winbei on 2018/8/13.
+//  Copyright © 2018年 HelloWorld_1986. All rights reserved.
+//
+
+#ifndef myMvvmPch_pch
+#define myMvvmPch_pch
+
+/*app在第三方注册的信息*/
+#import "ThridRegisterInfo.h"
+
+
+#endif /* myMvvmPch_pch */
