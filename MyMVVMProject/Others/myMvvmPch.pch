@@ -11,6 +11,16 @@
 
 /*app在第三方注册的信息*/
 #import "ThridRegisterInfo.h"
+/*app外观颜色配置*/
+#import "AppearanceConfig.h"
 
+
+//base模块
+#import "BaseViewController.h"
+#import "BaseNavigationController.h"
+#import "RootViewController.h"
+
+//pod模块
+#import <YYKit.h>
 
 #endif /* myMvvmPch_pch */

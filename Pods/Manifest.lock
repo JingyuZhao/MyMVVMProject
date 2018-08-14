@@ -3,12 +3,16 @@ PODS:
   - MGJRouter (0.10.0)
   - ReactiveObjC (3.1.0)
   - WebViewJavascriptBridge (6.0.3)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - JLRoutes (~> 2.1)
   - MGJRouter (~> 0.10.0)
   - ReactiveObjC (~> 3.1.0)
   - WebViewJavascriptBridge (~> 6.0.3)
+  - YYKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -16,13 +20,15 @@ SPEC REPOS:
     - MGJRouter
     - ReactiveObjC
     - WebViewJavascriptBridge
+    - YYKit
 
 SPEC CHECKSUMS:
   JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
   MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 9e55e2b2521bc850dfba01d7956a380cc47f8ce1
+PODFILE CHECKSUM: 576371642db6ace1c757f905fe363b126e6ad64c
 
 COCOAPODS: 1.5.3

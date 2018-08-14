@@ -11,4 +11,5 @@ target 'MyMVVMProject' do
     #pod 'MyLayout', '~> 1.5.3'
     pod 'MGJRouter', '~> 0.10.0'
     pod 'JLRoutes', '~> 2.1'
+    pod 'YYKit'
 end

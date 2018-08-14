@@ -17,6 +17,8 @@
 		F32E7CAE2121853C00529C2B /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E7CAD2121853C00529C2B /* BaseTabBarController.m */; };
 		F32E7CB12121854A00529C2B /* BaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E7CB02121854A00529C2B /* BaseTabBar.m */; };
 		F32E7CB4212189BE00529C2B /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E7CB3212189BE00529C2B /* IndexViewController.m */; };
+		F3DBE39921229EF400062BCE /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DBE39821229EF400062BCE /* BaseNavigationController.m */; };
+		F3DBE39E2122A43000062BCE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DBE39D2122A43000062BCE /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,11 @@
 		F32E7CB2212189BE00529C2B /* IndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
 		F32E7CB3212189BE00529C2B /* IndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
 		F3DBE39521218B1200062BCE /* ThridRegisterInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThridRegisterInfo.h; sourceTree = "<group>"; };
+		F3DBE39721229EF400062BCE /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		F3DBE39821229EF400062BCE /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		F3DBE39A2122A17500062BCE /* AppearanceConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppearanceConfig.h; sourceTree = "<group>"; };
+		F3DBE39C2122A43000062BCE /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F3DBE39D2122A43000062BCE /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +136,8 @@
 		F32E7C982121819900529C2B /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				F3DBE39B2122A41C00062BCE /* RootViewController */,
+				F3DBE39621229EBC00062BCE /* BaseNavigationController */,
 				F32E7CAB2121852100529C2B /* BaseTabBar */,
 				F32E7CAA2121852000529C2B /* BaseTabBarController */,
 				F32E7CA2212181BF00529C2B /* BaseViewController */,
@@ -206,8 +215,27 @@
 			isa = PBXGroup;
 			children = (
 				F3DBE39521218B1200062BCE /* ThridRegisterInfo.h */,
+				F3DBE39A2122A17500062BCE /* AppearanceConfig.h */,
 			);
 			path = Defines;
+			sourceTree = "<group>";
+		};
+		F3DBE39621229EBC00062BCE /* BaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				F3DBE39721229EF400062BCE /* BaseNavigationController.h */,
+				F3DBE39821229EF400062BCE /* BaseNavigationController.m */,
+			);
+			path = BaseNavigationController;
+			sourceTree = "<group>";
+		};
+		F3DBE39B2122A41C00062BCE /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F3DBE39C2122A43000062BCE /* RootViewController.h */,
+				F3DBE39D2122A43000062BCE /* RootViewController.m */,
+			);
+			path = RootViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +331,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F32E7CAE2121853C00529C2B /* BaseTabBarController.m in Sources */,
+				F3DBE39921229EF400062BCE /* BaseNavigationController.m in Sources */,
+				F3DBE39E2122A43000062BCE /* RootViewController.m in Sources */,
 				F32E7C9521217D6400529C2B /* AppDelegate.m in Sources */,
 				F32E7CB12121854A00529C2B /* BaseTabBar.m in Sources */,
 				F32E7CA5212181C800529C2B /* BaseViewController.m in Sources */,
