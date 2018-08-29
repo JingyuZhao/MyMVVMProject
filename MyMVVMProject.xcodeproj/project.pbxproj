@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		96F231E608502C79151F4A44 /* libPods-MyMVVMProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDC019047A9F2D1AD825C9D /* libPods-MyMVVMProject.a */; };
+		F3166B3F2133E31E004A2373 /* IndexViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3166B3E2133E31E004A2373 /* IndexViewModel.m */; };
+		F3166B422133E333004A2373 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3166B412133E333004A2373 /* DrawView.m */; };
+		F3166B452133E349004A2373 /* IndexCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3166B442133E349004A2373 /* IndexCellModel.m */; };
+		F3166B492133FBAB004A2373 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = F3166B482133FBAB004A2373 /* test.png */; };
 		F32E7C8421217D0700529C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32E7C8221217D0700529C2B /* Main.storyboard */; };
 		F32E7C8621217D2300529C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32E7C8521217D2300529C2B /* Assets.xcassets */; };
 		F32E7C8921217D2300529C2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32E7C8721217D2300529C2B /* LaunchScreen.storyboard */; };
@@ -25,6 +29,13 @@
 		264D9823B19511AA81B64A9D /* Pods-MyMVVMProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMVVMProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyMVVMProject/Pods-MyMVVMProject.debug.xcconfig"; sourceTree = "<group>"; };
 		8BDC019047A9F2D1AD825C9D /* libPods-MyMVVMProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyMVVMProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5C79554F15A7BD31747BCA /* Pods-MyMVVMProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMVVMProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyMVVMProject/Pods-MyMVVMProject.release.xcconfig"; sourceTree = "<group>"; };
+		F3166B3D2133E31E004A2373 /* IndexViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexViewModel.h; sourceTree = "<group>"; };
+		F3166B3E2133E31E004A2373 /* IndexViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexViewModel.m; sourceTree = "<group>"; };
+		F3166B402133E333004A2373 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		F3166B412133E333004A2373 /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		F3166B432133E349004A2373 /* IndexCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexCellModel.h; sourceTree = "<group>"; };
+		F3166B442133E349004A2373 /* IndexCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexCellModel.m; sourceTree = "<group>"; };
+		F3166B482133FBAB004A2373 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		F32E7C7921217D0600529C2B /* MyMVVMProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMVVMProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F32E7C8321217D0700529C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F32E7C8521217D2300529C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +90,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F3166B3A2133E2FA004A2373 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3166B402133E333004A2373 /* DrawView.h */,
+				F3166B412133E333004A2373 /* DrawView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3166B3B2133E2FC004A2373 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F3166B3D2133E31E004A2373 /* IndexViewModel.h */,
+				F3166B3E2133E31E004A2373 /* IndexViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F3166B3C2133E2FC004A2373 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3166B432133E349004A2373 /* IndexCellModel.h */,
+				F3166B442133E349004A2373 /* IndexCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3166B462133FB43004A2373 /* Rescoures */ = {
+			isa = PBXGroup;
+			children = (
+				F3166B472133FBAB004A2373 /* Images */,
+			);
+			path = Rescoures;
+			sourceTree = "<group>";
+		};
+		F3166B472133FBAB004A2373 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F3166B482133FBAB004A2373 /* test.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		F32E7C7021217D0600529C2B = {
 			isa = PBXGroup;
 			children = (
@@ -117,20 +171,13 @@
 		F32E7C9221217D6400529C2B /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				F3166B462133FB43004A2373 /* Rescoures */,
 				F3DBE39421218AF700062BCE /* Defines */,
-				F32E7C972121818700529C2B /* Rescoures */,
 				F32E7C9321217D6400529C2B /* AppDelegate.h */,
 				F32E7C9421217D6400529C2B /* AppDelegate.m */,
 				F32E7CA72121822100529C2B /* myMvvmPch.pch */,
 			);
 			path = Others;
-			sourceTree = "<group>";
-		};
-		F32E7C972121818700529C2B /* Rescoures */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Rescoures;
 			sourceTree = "<group>";
 		};
 		F32E7C982121819900529C2B /* Base */ = {
@@ -179,6 +226,9 @@
 		F32E7CA82121841000529C2B /* IndexModules */ = {
 			isa = PBXGroup;
 			children = (
+				F3166B3C2133E2FC004A2373 /* Model */,
+				F3166B3A2133E2FA004A2373 /* View */,
+				F3166B3B2133E2FC004A2373 /* ViewModel */,
 				F32E7CA92121841000529C2B /* Controller */,
 			);
 			path = IndexModules;
@@ -299,6 +349,7 @@
 				F32E7C8921217D2300529C2B /* LaunchScreen.storyboard in Resources */,
 				F32E7C8621217D2300529C2B /* Assets.xcassets in Resources */,
 				F32E7C8421217D0700529C2B /* Main.storyboard in Resources */,
+				F3166B492133FBAB004A2373 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +385,10 @@
 				F3DBE39921229EF400062BCE /* BaseNavigationController.m in Sources */,
 				F3DBE39E2122A43000062BCE /* RootViewController.m in Sources */,
 				F32E7C9521217D6400529C2B /* AppDelegate.m in Sources */,
+				F3166B422133E333004A2373 /* DrawView.m in Sources */,
 				F32E7CB12121854A00529C2B /* BaseTabBar.m in Sources */,
+				F3166B3F2133E31E004A2373 /* IndexViewModel.m in Sources */,
+				F3166B452133E349004A2373 /* IndexCellModel.m in Sources */,
 				F32E7CA5212181C800529C2B /* BaseViewController.m in Sources */,
 				F32E7C8C21217D2300529C2B /* main.m in Sources */,
 				F32E7CB4212189BE00529C2B /* IndexViewController.m in Sources */,

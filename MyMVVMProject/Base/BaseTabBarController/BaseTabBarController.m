@@ -8,7 +8,7 @@
 
 #import "BaseTabBarController.h"
 #import "BaseTabBar.h"
-
+#import "BaseViewController.h"
 @interface BaseTabBarController ()
 
 @end
@@ -29,13 +29,13 @@
 // 添加全部的 childViewcontroller
 - (void)addAllChildViewController
 {
-    
     NSArray *titles = @[@"发现", @"关注", @"消息", @"我的"];
     NSArray *images = @[@"icon_tabbar_home~iphone", @"icon_tabbar_subscription~iphone", @"icon_tabbar_notification~iphone", @"icon_tabbar_me~iphone"];
     NSArray *selectedImages = @[@"icon_tabbar_home_active~iphone", @"icon_tabbar_subscription_active~iphone", @"icon_tabbar_notification_active~iphone", @"icon_tabbar_me_active~iphone"];
+    NSArray *classArr = @[@"IndexViewController",@"BaseViewController",@"BaseViewController",@"BaseViewController"];
     for (NSInteger i=0; i<selectedImages.count; i++) {
-        UIViewController *homeVC = [[UIViewController alloc] init];
-        homeVC.view.backgroundColor = [UIColor redColor];
+        Class vc = NSClassFromString(classArr[i]);
+        BaseViewController *homeVC = (BaseViewController *)[[vc alloc] init];
         [self addChildViewController:homeVC title:titles[i] imageNamed:images[i] selectedImageName:selectedImages[i]];
     }
    
